@@ -16,12 +16,16 @@
   </head>
 
   <body theme="main">
-    <div id="startup-modal" class="modal-overlay">
+    <div id="startup-modal" class="modal-overlay" style="display:none">
       <div class="modal-box">
         <p class="modal-credit">created by jlee</p>
         <button class="button play" style="background:#fff;color:#000;" onclick="document.getElementById('startup-modal').style.display='none'">Continue</button>
       </div>
     </div>
+
+    <script>
+      document.getElementById('startup-modal').style.display = 'flex';
+    </script>
 
     <nav>
       <div class="logo">
